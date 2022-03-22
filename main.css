@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    /* width: auto; */
+    width:1440px;
+    margin:0 auto;
+    /* padding:0 2%; */
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+   cursor: url(fork1.png),auto; 
+}
+
+.hero-section,
+.about-me{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text-section,
+.about-me .text-section{
+    width: 45%;
+    padding-top:260px;
+}
+
+.header-text,
+.about-me .header-text,
+.description h1{
+
+    /* font-family: 'Montserrat', sans-serif,'Poppins', sans-serif; */
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bolder;
+    letter-spacing: -0.02em;
+    /* line-height: 78px; */
+    /* letter-spacing: -0.02em; */
+    text-align: left;
+    color:#575757;
+    text-transform: capitalize;
+
+    /* font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 78px;
+    letter-spacing: -0.02em;
+    text-align: left; */
+
+
+
+}
+
+.header-text span{
+    /* color:orange; */
+
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+
+}
+
+.subHeader-text h3,
+.about-me .subHeader-text h3,
+.description h3{
+    /* font-family: 'Montserrat'; */
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+letter-spacing: -0.02em;
+
+color: #828282;
+}
+
+button{
+    width: 192px;
+    height: 68px;
+    padding: 24px 32px;
+    font-size: 18px;
+    color:#fff;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+    border: none;
+    margin-top: 22px;
+    text-transform: capitalize;
+
+    
+}
+
+button:hover{
+    cursor: pointer;
+    transform:scale(1.05)
+}
+
+.img-section,
+.about-me .img-section{
+    width:45%;
+    padding-top:82px;
+}
+
+
+.about-me{
+    /* height:600px; */
+    background-image: url(/images/shapes/7.png);
+    column-gap: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5% 0;
+    /* display:flex;
+    flex-direction: row;
+    justify-content: center; */
+}
+
+.img-section, 
+.about-me .img-section {
+    /* width: 45%;
+    padding-top: 82px; */
+    text-align: center;
+}    
+
+.about-me .text-section {
+    width: 45%;
+    padding-top: 150px;
+}
+.my-recipe-section{
+    margin: 5% 0;
+}
+#recipe-header,
+#recipe-subHeader{
+    text-align: center;
+}
+
+#recipe-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#recipe-subHeader{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.recipe-box-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 3.5%;
+    padding-top: 1%;
+}
+
+.recipe-box{
+    width: 25%;
+    
+    border-radius: 30px;
+    padding: 20px;
+
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+.recipe-box:hover{
+    transform:scale(1.05)
+    
+}
+
+.recipe-img img{
+    width: 100%;
+    height:30%
+}
+
+.recipe-description h2{
+    /* font-family: 'Montserrat'; */
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 28px;
+    line-height: 40px;
+    text-transform: capitalize;
+
+}
+
+.recipe-description p{
+    /* font-family: 'Montserrat'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color:#18191F;
+}
+
+
+.subscriber-section{
+    display:flex;
+    flex-direction: row;
+
+    justify-content: center;
+    column-gap: 10%;
+
+    margin: 10% 8% 10% 8%;
+
+    padding: 0 5%;
+
+
+    
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+
+}
+
+.youtube-section ,
+.instagram-section ,
+.dribble-section {
+    width:16%;
+    text-transform: capitalize;
+
+    /* font-family: 'Montserrat'; */
+
+    color: #18191F;
+
+
+    padding: 5% 0;
+}
+
+.youtube-section:hover ,
+.instagram-section:hover ,
+.dribble-section:hover {
+   transform:scale(1.05)
+}
+
+
+
+
+.youtube-section h1,
+.instagram-section h1,
+.dribble-section h1{
+    
+
+    
+font-style: normal;
+font-weight: 950;
+font-size: 48px;
+/* line-height: 64px; */
+/* identical to box height, or 133% */
+
+
+
+}
+
+.youtube-section p,
+.instagram-section p,
+.dribble-section p{
+    
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin-top: -10%;
+/* line-height: 26px; */
+/* identical to box height, or 162% */
+
+}
+.footer{
+text-align: center;
+background: #0B0D17;
+padding: 5% 0;
+}
+.footer-header-text{
+font-weight: 800;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+
+color: #5B5B5B;
+text-transform: uppercase;
+}
+.footer-header-text span{
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* background-clip: text;
+text-fill-color: transparent; */
+font-weight: bolder;   
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+    color: #FFFFFF;
+}
