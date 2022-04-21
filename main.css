@@ -54,6 +54,8 @@ body {
   background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* -text-fill-clip: transparent; */
 }
 
 .subHeader-text h3,
@@ -276,8 +278,9 @@ text-fill-color: transparent; */
   margin: 0;
 
   background-color: #5b5b5b;
+  /* text-transform: capitalize; */
 }
-.animay{
+.anime{
     display:inline-block;
 }
 /* .copyright p{
