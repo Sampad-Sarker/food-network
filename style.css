@@ -297,6 +297,10 @@ a:hover {
 }
 
 @media (min-width: 950px) {
+  .about-me .row {
+    gap: 20%;
+  }
+
   h1 {
     font-size: 3.5rem;
   }
