@@ -305,15 +305,16 @@ a:hover {
     font-size: 3.5rem;
   }
 
-  p {
-    font-size: 1.9rem;
-  }
+  /* p {
+    font-size: 1.75rem;
+  } */
   button {
     font-size: 2.125rem;
   }
   .my-recipe-section h2 {
     font-size: 2.75rem;
   }
+
   .footer h2 {
     font-size: 2.875rem;
   }
